@@ -92,14 +92,14 @@ body{
 
 
 #img-bg1{
-    background-image: url('./airmail-envelope-938655_1280.jpg');
+    background-image: url('./image/airmail-envelope-938655_1280.jpg');
     border-radius: 40%;
 }
 
 .contact-section{
     text-align: center;
     margin-top: 2rem;  
-    background-image: url('./computer.jpg');  
+    background-image: url('./image/computer.jpg');  
     background-size: cover;
     height:90vh;
     /* position: absolute; */
