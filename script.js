@@ -7,6 +7,12 @@
     const darkMode = document.querySelector('#dark-mode');
     const card = document.querySelectorAll('.card ');
     const personalID =  document.querySelector('#personal-id')
+    const heading = document.querySelector(".heading");
+    const favoriteHeader = document.querySelector('#favorite-header')
+    const favoriteContent = document.querySelector('#favorite-content');
+    const content = document.querySelector('.content')
+    const colAbout = document.querySelector('#col-about');
+    const colFavorite = document.querySelector('#col-favorite');
     var count = 0;
 
 
@@ -19,10 +25,38 @@ darkMode.addEventListener('click', () => {
         document.querySelector('.nav-link').style.color = "white"
         document.querySelector('#about').style.color = "white"
         document.querySelector('#contact').style.color = "white"
+        if (heading !== null){
+            heading.style.color = "white";
+        }
+
+        if (favoriteHeader !== null)
+        {
+            favoriteHeader.style.color = "white";
+        }
+
+        if (colAbout !== null)
+        {
+            colAbout.style.backgroundColor = "#2d2d2d"
+        }
+
+        if (favoriteContent !== null)
+        {
+            favoriteContent.style.color = "white";
+        }
+
+        if (colFavorite !== null)
+        {
+            colFavorite.style.backgroundColor = "#2d2d2d"
+        }
+        if (content !== null)
+        {
+            content.style.color = "white"
+        }
+
 
 
         if (personalID !== null) {
-        personalID.style.color = "white"
+            personalID.style.color = "white"
         }
 
         darkMode.style.color ="white"

@@ -195,6 +195,8 @@ on top of each other instead of next to each other */
 .card{
     margin-bottom: 1.5rem;
     opacity: 90%;
+    border: 1rem solid whitesmoke;
+    
 }
 
 .card:hover{
@@ -202,6 +204,7 @@ on top of each other instead of next to each other */
     transform: translateY(-1rem);
     cursor: pointer;  
     box-shadow: 5px 8px #d2dae2;
+    
 }
 
 #personal-id{
@@ -240,10 +243,10 @@ on top of each other instead of next to each other */
 #favorite-header{
     color:black;
 }
-
+/* 
 #favorite-content{
     color:;
-}
+} */
 
 .carousel-item{
     text-align: center;
