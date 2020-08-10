@@ -77,11 +77,11 @@ darkMode.addEventListener('click', () => {
             card[i].style.backgroundColor="white"
          }
          colFavorite.style.backgroundColor = "white";
-         colAbout.style.backgroundColor = "rgb(249, 249, 249)"
-         favoriteHeader.style.color = "black"
-         favoriteContent.style.color = "black"
-         content.style.color = "black"
-         heading.style.color = "black"
+         colAbout.style.backgroundColor = "whitesmoke";
+         favoriteHeader.style.color = "black";
+         favoriteContent.style.color = "black";
+         content.style.color = "black";
+         heading.style.color = "black";
         // document.querySelector('#personal-id').style.color = "#353b48"
 
     }
